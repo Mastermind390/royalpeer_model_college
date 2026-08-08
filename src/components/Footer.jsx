@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
     return (
         <>
@@ -11,11 +13,11 @@ export default function Footer() {
                     <div className="my-10">
                         <h2 className="font-bold text-white text-xl">USEFUL LINKS</h2>
                         <ul className="mt-3">
-                            <li className="mb-3"><a href="" className="text-white">ABOUT THE SCHOOL</a></li>
-                            <li className="mb-3"><a href="" className="text-white">ABOUT THE PROPRIETRESS</a></li>
-                            <li className="mb-3"><a href="" className="text-white">VANACIES</a></li>
-                            <li className="mb-3"><a href="" className="text-white">GALLERY</a></li>
-                            <li className="mb-3"><a href="" className="text-white">FOOTAGES</a></li>
+                            <li className="mb-3"><Link to="/about" className="text-white">ABOUT THE SCHOOL</Link></li>
+                            {/* <li className="mb-3"><Link to="" className="text-white">ABOUT THE PROPRIETRESS</Link></li> */}
+                            <li className="mb-3"><Link to="/" className="text-white">VACANCIES</Link></li>
+                            <li className="mb-3"><Link to="/gallery" className="text-white">GALLERY</Link></li>
+                            <li className="mb-3"><Link to="/footage" className="text-white">FOOTAGES</Link></li>
                         </ul>
                     </div>
                 </div>

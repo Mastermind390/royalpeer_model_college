@@ -47,7 +47,7 @@ export function Header() {
                     </button>
                     </div>
                 </div>
-                <div className="mt-18 flex justify-center flex-col lg:flex-row lg:gap-20 lg:mx-26 lg:items-start lg:justify-items-start mb-10">
+                <div className="mt-18 flex justify-center flex-col lg:flex-row lg:gap-20 lg:mx-26 lg:items-start mb-10">
                     <div className="mx-7 lg:mx-0 md:mx-34 px-8 py-13 bg-blue-900 relative flex justify-center">
                     <div className="px-10 py-4 bg-red-600 -top-6 rounded-full absolute">
                         <p className="text-white font-bold">THE SCHOOL ANTHEM</p>

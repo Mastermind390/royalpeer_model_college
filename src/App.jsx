@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from './pages/Homepage';
 import AboutPage from './pages/About';
 import GalleryPage from './pages/Gallery';
@@ -13,7 +14,16 @@ function App() {
       {/* <HomePage /> */}
       {/* <AboutPage /> */}
       {/* <GalleryPage /> */}
-      <FootagePage />
+      {/* <FootagePage /> */}
+
+      <BrowserRouter>
+      <Routes>
+        <Route index path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/footage" element={<FootagePage />} />
+      </Routes>
+    </BrowserRouter>
     </>
     
   )
