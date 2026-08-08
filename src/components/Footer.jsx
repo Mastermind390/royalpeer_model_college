@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from "../assets/images/royal_logo.jpg";
 
 export default function Footer() {
     return (
@@ -6,8 +7,10 @@ export default function Footer() {
             <div className="w-full bg-blue-900 px-7 lg:px-20 py-10">
                 <div className="lg:flex lg:justify-between lg:items-start">
                     <div className="flex items-center gap-5">
-                        <img src="../src/assets/images/royal_logo.jpg" alt="" className="w-20 lg:w-35 rounded-full" />
-                        <h2 className="text-2xl lg:text-3xl
+                        <Link to="/">
+                            <img src={logo} alt="" className="w-20 lg:w-25 rounded-full" />
+                        </Link>
+                        <h2 className="text-2xl lg:text-2xl
                         text-white font-black">ROYALPEER MODEL <br /> COLLEGE</h2>
                     </div>
                     <div className="my-10">
