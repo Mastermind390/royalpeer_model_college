@@ -36,7 +36,7 @@ export default function Footer() {
                     </div>
                     <div>
                         <h1 className="text-xl font-black text-white">Contacts</h1>
-                        <p className="text-white text-m">08037279079, 08036627540</p>
+                        <p className="text-white text-m">07035472581, 08037279079, 08036627540</p>
                     </div>
                 </div>
             </div>
