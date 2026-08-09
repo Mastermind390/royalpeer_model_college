@@ -15,7 +15,7 @@ export default function AboutPage () {
                 <HeaderNav />
                 <section className="mt-35 mb-15 mx-10 lg:mx-30">
                     <SectionHeader title={'WHO WE ARE'}/>
-                    <div className="flex items-center flex-col lg:gap-16 text-justify lg:flex-row lg:gap-4 lg:text-justify gap-8">
+                    <div className="flex items-center flex-col lg:gap-16 text-justify lg:flex-row lg:text-justify gap-8">
                         <p>Royalpeer model college is a dynamic and     forward thinking Nursery, Primary and Secondary school dedicated to nurturing excellence in academics, character and leadership. Founded with a vision to raise future leaders equipped with knowledge, discipline and creativity. Royalpeer has become a trusted name in quality education.
                             <br/><br />
                             We are committed to providing a balanced and holistic education that develop the intellectual, moral, and social potential of every child. Our environment is designed to inspire curiosity, encourage innovations, and instill values that prepare our students to thrive in today's ever-changing world.
@@ -69,7 +69,7 @@ export default function AboutPage () {
                         <br /><br />
                         Qualified and dedicated teachers passionate about student growth.
                         <br /><br />
-                        Modern classroom and ICT facilities to support digital learning. Science and language laboraty for hand-on learning.
+                        Modern classroom and ICT facilities to support digital learning. Science laboraty for hand-on learning.
                         <br /><br />
                         Co-curricular activities such as debates, music, art, and sports to promote all-round development.
                         <br /><br />
@@ -82,7 +82,7 @@ export default function AboutPage () {
                 <section className="mb-10 mx-10 lg:mx-30 lg:flex lg:flex-col lg:items-end">
                     <SectionHeader title={'OUR COMMITMENT'}/>
                     <div className="flex flex-col items-center gap-8 lg:gap-10 lg:flex-row lg:flex-row-reverse">
-                        <p className="px-6 py-4 text-justify">Every child at royalpeer model college is treated as a unique individual with limitless potential, we are commited to guiding them to discover their strength, pursue their passion, and grow into responsible, confident, and visionary leaders.
+                        <p className="px-6 py-4 text-justify">Every child at Royalpeer Model College is treated as a unique individual with limitless potential, we are commited to guiding them to discover their strength, pursue their passion, and grow into responsible, confident, and visionary leaders.
                         <br /><br />
                         At Royalpeer, education is not just about passing exams, it's about building lives, shaping destinies, and preparing students for the challenges and opportunities of the future.
 
@@ -95,7 +95,7 @@ export default function AboutPage () {
                     <div className="bg-blue-900 flex justify-center py-4 mb-5 text-xl font-bold text-white lg:text-2xl">
                         JOIN THE ROYALPEER FAMILY
                     </div>
-                    <p className="text-center mx-10 lg:mx-30 lg:text-2xl">Becoming part of Royalpeer Model College means joining a community that believes in excellence, integrity, and lifelong learning. We invite parents and guardians who shares our vision to partner with us in nurturing the next generation of leaders.</p>
+                    <p className="text-center mx-10 lg:mx-30">Becoming part of Royalpeer Model College means joining a community that believes in excellence, integrity, and lifelong learning. We invite parents and guardians who shares our vision to partner with us in nurturing the next generation of leaders.</p>
                 </section>
                 <Footer />
             </main>
