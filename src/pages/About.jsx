@@ -69,7 +69,7 @@ export default function AboutPage () {
                         <br /><br />
                         Qualified and dedicated teachers passionate about student growth.
                         <br /><br />
-                        Modern classroom and ICT facilities to support digital learning. Science laboraty for hand-on learning.
+                        Modern classroom and ICT facilities to support digital learning. Science laboratory for hand-on learning.
                         <br /><br />
                         Co-curricular activities such as debates, music, art, and sports to promote all-round development.
                         <br /><br />
