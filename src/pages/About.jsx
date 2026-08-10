@@ -52,7 +52,7 @@ export default function AboutPage () {
                         <br /><br />
                         <strong>Discipline:</strong> We instill self-control and responsibility in our students.
                         <br /><br />
-                        <strong>Innovation:</strong> We encourage creativity, problems solving, and actical thinking.
+                        <strong>Innovation:</strong> We encourage creativity, problems solving, and critical thinking.
                         <br /><br />
                         <strong>Service:</strong> We teach our students to contribute meaningfully to their communities.
 

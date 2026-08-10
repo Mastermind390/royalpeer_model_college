@@ -27,7 +27,7 @@ export default function Footer() {
                 <div className="flex gap-7 flex-col">
                     <div>
                         <h1 className="text-xl font-black text-white">Address</h1>
-                        <p className="text-white text-m">Behind 2nd Buga Block Industry,<br /> Oluwo-oshin Town, Gbarinmole, Ofada, Mokoloki, Ogun state.</p>
+                        <p className="text-white text-m">13, Royalpeer Street, Behind 2nd Buga Block Industry,<br /> Oluwo-oshin Town, Gbarinmole, Ofada, Mokoloki, Ogun state.</p>
                     </div>
                     <div>
                         <h1 className="text-xl font-black text-white ">Email Address</h1>
