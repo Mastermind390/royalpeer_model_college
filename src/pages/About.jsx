@@ -26,7 +26,7 @@ export default function AboutPage () {
 
                 <section className="mb-10 mx-10 lg:mx-30 lg:flex lg:flex-col lg:items-end">
                     <SectionHeader title={'OUR VISION'}/>
-                    <div className="flex flex-col items-center gap-8 lg:gap-16 lg:flex-row lg:flex-row-reverse">
+                    <div className="flex flex-col items-center gap-8 lg:gap-16 lg:flex-row-reverse">
                         <p className="bg-blue-900 px-6 py-4 text-justify text-white">To be a leading educational institution known for academic excellence, sound character, and the development of future leaders who will make a positive impact in society.
                         </p>
                         <img src={scope} className="w-50" alt="" />
@@ -35,7 +35,7 @@ export default function AboutPage () {
 
                 <section className="mb-15 mx-10 lg:mx-30">
                     <SectionHeader title={'OUR MISSION'}/>
-                    <div className="flex items-center flex-col lg:gap-16 text-justify lg:flex-row lg:gap-4 lg:text-justify gap-8">
+                    <div className="flex items-center flex-col text-justify lg:flex-row lg:gap-4 lg:text-justify gap-8">
                         <p className="bg-red-500 px-6 py-4 text-white">To provide quality and include education that empowers students with knowledge, skills, and values through effective teaching facilities and moral guidance.
 
                         </p>
@@ -45,7 +45,7 @@ export default function AboutPage () {
 
                 <section className="mb-10 mx-10 lg:mx-30 lg:flex lg:flex-col lg:items-end">
                     <SectionHeader title={'OUR CORE VALUES'}/>
-                    <div className="flex flex-col items-center gap-8 lg:gap-10 lg:flex-row lg:flex-row-reverse">
+                    <div className="flex flex-col items-center gap-8 lg:gap-10 lg:flex-row-reverse">
                         <p className="px-6 py-4 text-justify"><strong>Excellence:</strong> We strive for the highest standards in academic and personal conduct.
                         <br /><br />
                         <strong>Integrity:</strong> We promote honesty, accountability, and strong moral principle.
@@ -63,7 +63,7 @@ export default function AboutPage () {
 
                 <section className="mb-15 mx-10 lg:mx-30">
                     <SectionHeader title={'WHAT WE OFFER'}/>
-                    <div className="flex items-center flex-col lg:gap-16 text-justify lg:flex-row lg:gap-4 lg:text-justify gap-8">
+                    <div className="flex items-center flex-col lg:gap-16 text-justify lg:flex-row lg:text-justify gap-8">
                         <p className="bg-blue-900 px-6 py-8 text-white">At Royalpeer Model College, we combine tradition with innovation to deliver a world-class educational experience. Our offerings include:
                         A well structured curriculum that meets national and global standards.
                         <br /><br />
@@ -81,7 +81,7 @@ export default function AboutPage () {
 
                 <section className="mb-10 mx-10 lg:mx-30 lg:flex lg:flex-col lg:items-end">
                     <SectionHeader title={'OUR COMMITMENT'}/>
-                    <div className="flex flex-col items-center gap-8 lg:gap-10 lg:flex-row lg:flex-row-reverse">
+                    <div className="flex flex-col items-center gap-8 lg:gap-10 lg:flex-row-reverse ">
                         <p className="px-6 py-4 text-justify">Every child at Royalpeer Model College is treated as a unique individual with limitless potential, we are commited to guiding them to discover their strength, pursue their passion, and grow into responsible, confident, and visionary leaders.
                         <br /><br />
                         At Royalpeer, education is not just about passing exams, it's about building lives, shaping destinies, and preparing students for the challenges and opportunities of the future.

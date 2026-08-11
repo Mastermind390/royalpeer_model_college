@@ -24,7 +24,7 @@ export default function HeaderNav() {
             </button>
             <div className="bg-blue-950 px-12 py-7 rounded-full hidden lg:block">
                 <DesktopLink title={'ABOUT THE SCHOOL'} destination={"/about"}/>
-                <DesktopLink title={'VACANCIES'} destination={""}/>
+                <DesktopLink title={'VACANCIES'} destination={"/vacancy"}/>
                 <DesktopLink title={'FOOTAGES'} destination={"/footage"}/>
                 <DesktopLink title={'GALLERY'} destination={"/gallery"}/>
             </div>
@@ -33,7 +33,7 @@ export default function HeaderNav() {
                 <ul>
                     <HeaderLink title={"ABOUT THE SCHOOL"} destination={"/about"}/>
                     {/* <HeaderLink title={"ABOUT THE PROPRIETRESS"} destination={""}/> */}
-                    <HeaderLink title={"VACANCIES"} destination={""}/>
+                    <HeaderLink title={"VACANCIES"} destination={"/vacancy"}/>
                     <HeaderLink title={"FOOTAGES"} destination={"/footage"}/>
                     <HeaderLink title={"GALLERY"} destination={"/gallery"}/>
                 </ul>
