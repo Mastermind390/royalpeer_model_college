@@ -1,10 +1,13 @@
 import schoolImage from "../assets/images/school.jpg";
 import Footer from "../components/Footer";
+import HeaderNav from "../components/HeaderNav";
 
 export default function VacancyPage () {
     return (
         <>
-            <header class="relative overflow-hidden bg-linear-to-r from-blue-900 to-blue-700 text-white">
+
+            <HeaderNav />
+            <header class="relative mt-35 overflow-hidden bg-linear-to-r from-blue-900 to-blue-700 text-white">
                 <div class="mx-auto grid max-w-7xl lg:min-h-127.5 lg:grid-cols-2">
 
 
