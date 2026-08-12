@@ -8,43 +8,43 @@ export default function VacancyPage () {
 
             <HeaderNav />
             <header class="relative mt-35 overflow-hidden bg-linear-to-r from-blue-900 to-blue-700 text-white">
-                <div class="mx-auto grid max-w-7xl lg:min-h-127.5 lg:grid-cols-2">
+                <div class="">
 
 
-                    <div class="relative z-10 flex flex-col justify-center px-6 py-12 sm:px-10 lg:px-14 lg:py-16">
-                        <div class="mb-5 h-1.5 w-20 rounded-full bg-schoolRed"></div>
+                    <div class="relative z-10 flex flex-col justify-center items-center px-6 py-12 sm:px-10 lg:px-14 lg:py-16">
+                        <div className="bg-center opacity-15 absolute top-0 bottom-0 left-0 right-0" style={{ backgroundImage: `url(${schoolImage})`}}></div>
 
                         <h1 class="text-5xl font-black uppercase tracking-tight sm:text-6xl lg:text-7xl">
                         Vacancies
                         </h1>
 
-                        <h2 class="mt-5 max-w-xl text-2xl font-bold leading-tight sm:text-3xl">
-                        Join Our Team of<br class="hidden sm:block" />
+                        <h2 class="mt-5 max-w-xl text-center text-2xl font-bold leading-tight sm:text-3xl">
+                        Join Our Team of
                         Dedicated Educators
                         </h2>
 
-                        <p class="mt-5 max-w-xl text-sm leading-6 text-white/90 sm:text-base">
-                        At ROYALPEER MODEL COLLEGE, we believe that quality education begins
+                        <p class="mt-5 max-w-xl text-center text-sm leading-6 text-white/90 sm:text-base">
+                        <strong>At ROYALPEER MODEL COLLEGE</strong>, we believe that quality education begins
                         with passionate, competent, and dedicated professionals. We are
                         constantly seeking talented individuals who are committed to academic
                         excellence, character development, and the overall growth of our students.
                         </p>
 
-                        <p class="mt-4 max-w-xl text-sm leading-6 text-white/90 sm:text-base">
+                        <p class="mt-4 max-w-xl text-sm leading-6 text-center text-white/90 sm:text-base">
                         We invite applications from suitably qualified and experienced
                         candidates to join our dynamic team.
                         </p>
                     </div>
 
       
-                    <div class="relative min-h-82.5 lg:min-h-full">
+                    {/* <div class="relative min-h-82.5 lg:min-h-full">
                         <img
                         src={schoolImage}
                         alt="Teacher helping students with their schoolwork"
                         class="absolute inset-0 h-full w-full object-cover object-center"
                         />
                         <div class="absolute inset-0 bg-linear-to-r from-blue-950 via-blue-700 to-transparent lg:from-blue-950 lg:via-transparent"></div>
-                    </div>
+                    </div> */}
 
                 </div>
 
@@ -56,7 +56,7 @@ export default function VacancyPage () {
             </header>
 
   
-            <main class="mx-16 px-5 pb-8 sm:px-8 lg:px-10">
+            <main class="lg:mx-16 px-5 pb-8 sm:px-8 lg:px-10">
 
                 <section class="grid gap-5 md:grid-cols-2">
 
@@ -182,7 +182,7 @@ export default function VacancyPage () {
                         </p>
 
                         <a
-                        href="https://wa.me/2348123456789"
+                        href="https://wa.me/2347035472581"
                         target="_blank"
                         rel="noopener noreferrer"
                         class="mt-5 flex items-center gap-4 rounded-xl bg-slate-100 p-4 transition hover:bg-slate-200"
@@ -193,7 +193,7 @@ export default function VacancyPage () {
                         <span>
                             <span class="block font-semibold text-royal">Apply via WhatsApp</span>
                             <span class="block text-xl font-extrabold text-[#E52525] sm:text-2xl">
-                            +234 812 345 6789
+                            +234 703 547 2581
                             </span>
                         </span>
                         </a>
@@ -206,7 +206,7 @@ export default function VacancyPage () {
 
 
                 <section>
-                    <div className="bg-blue-900 py-5 mx-20 rounded-lg my-10">
+                    <div className="bg-blue-900 py-5 px-3 lg:mx-20 rounded-lg my-10">
                         <p className="text-center text-white font-bold ">
                             Come and be part of a team committed to raising confident, knowledgeable, disciplined,and future-ready students.
                         </p>
