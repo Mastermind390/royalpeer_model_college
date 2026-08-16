@@ -8,7 +8,7 @@ import biology from "../assets/images/biology.jpeg";
 import hall from "../assets/images/hall2.jpg";
 import excursion2 from "../assets/images/excursion2.jpg";
 import library from "../assets/images/library.jpg";
-import physics from "../assets/images/physics.jpg";
+import physics from "../assets/images/Physics.jpg";
 import workshop from "../assets/images/workshop.jpg";
 import PictureTitles from "../components/PicturesTitles";
 import Footer from "../components/Footer";
