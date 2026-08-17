@@ -17,7 +17,7 @@ function App() {
       {/* <GalleryPage /> */}
       {/* <FootagePage /> */}
 
-      <BrowserRouter basename="/royalpeer">
+      <BrowserRouter basename="/royalpeer_model_college">
       <Routes>
         <Route index path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
