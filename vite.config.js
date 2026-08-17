@@ -40,6 +40,7 @@ export default defineConfig({
 
 
   ],
-   base: '/royalpeer_model_college/',
+   base: '/',
+  //  base: '/royalpeer_model_college/',
 })
 
